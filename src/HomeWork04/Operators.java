@@ -10,22 +10,26 @@ public class Operators {
         int e = d / 8;
         int f = e % 30;
         int g = -f;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
+        System.out.println(a); //12
+        System.out.println(b); //18
+        System.out.println(c); //6
+        System.out.println(d); //1296
+        System.out.println(e); //162
+        System.out.println(f); //12
+        System.out.println(g); //-12
 
 //Task 2 - Assignment Operators
         a = 10;
         a += 3;
+        System.out.println(a); //13
         a -= 7;
+        System.out.println(a); //6
         a *= 4;
+        System.out.println(a); //24
         a /= 8;
+        System.out.println(a); //3
         a %= 2;
-        System.out.println(a);
+        System.out.println(a); //1
 
 //Task 3 - Increment and Decrement Operators
         a = 0;
