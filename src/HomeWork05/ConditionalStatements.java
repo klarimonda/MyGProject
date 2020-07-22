@@ -53,8 +53,10 @@ public class ConditionalStatements {
             if (c1 == 10){
                 if ((c1 <= b1) && (a1 == b1)){ //I changed '!' to '='
                     System.out.println("All statements are true.");
+                    //After changing this is displayed
                 } else {
                     System.out.println("One of the statements isn't true.");
+                    //At first this was displayed
                 }
             } else {
                 System.out.println("One of statements is true.");
