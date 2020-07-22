@@ -51,18 +51,20 @@ public class ConditionalStatements {
         int b1 = ++a1;
         if (b1 >= a1){
             if (c1 == 10){
-                if ((c1 <= b1) && (a1 == b1)){ //I changed '!' to '='
+                if ((c1 <= b1) && (a1 != b1)){
                     System.out.println("All statements are true.");
-                    //After changing this is displayed
+                    //If we change '!' to '=' in the line 54 this will be displayed
                 } else {
                     System.out.println("One of the statements isn't true.");
                     //At first this was displayed
                 }
             } else {
                 System.out.println("One of statements is true.");
+                //If we change '=' to '!' in the line 53 this will be displayed
             }
         } else {
             System.out.println("All statements are false");
+            //If we change '>' to '!' in the line 52 this will be displayed
         }
 
 //Task 5 - Ternary Operator
