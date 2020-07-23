@@ -2,17 +2,24 @@ package HomeWork03;
 
 public class NonPrimitiveDataType {
     public static void main(String[] args) {
-//Task 9 - Non-Primitive Data Type
+//Task 9 - Object Reference Types
         Integer x1 = 1;
+        int x2 = 5;
         System.out.println(x1.equals(2)); //false
 
+        //On STACK we store: primitive data types and references
+        //On HEAP we store: objects, classes and methods
+
+//Task 9 - Wrapper Classes
+        //Byte, Short, Integer, Long, Float, Double, Boolean, Character store about 5-times more than their primitive data types analogues
+
+//STRINGs
         String s = "JAVA";
         System.out.println(s.toLowerCase()); //java
 
         String s1 = "PHP";
         System.out.println(s1.repeat(3)); //PHPPHPPHP
 
-//STRINGs
         String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         System.out.println("The length of the txt string is " + txt.length());
 
