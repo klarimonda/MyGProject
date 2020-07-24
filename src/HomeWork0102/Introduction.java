@@ -6,11 +6,9 @@ public class Introduction {
         System.out.print(a + " " + a + " " + a + " " + a + " ");
         System.out.println(a);
 
-        String b = "I want to be a java developer!";
-        System.out.println(b);
-        System.out.println(b);
-        System.out.println(b);
-        System.out.println(b);
-        System.out.print(b);
+        int i;
+        for (i = 0; i < 5; i++) {
+            System.out.println("I want to be a java developer!");
+        }
     }
 }
