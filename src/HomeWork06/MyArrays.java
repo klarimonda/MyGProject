@@ -18,25 +18,6 @@ public class MyArrays {
         }
         System.out.println(Arrays.toString(reverse));
 
-        System.out.println("");
-
-//Task 3
-        int[] array3 = {1, 2, 3, 4, 5};
-        System.out.println(Arrays.toString(array3));
-        int j = array3[0];
-        array3[0] = array3[1];
-        array3[1] = j;
-        System.out.println("Result " + Arrays.toString(array3)); //2, 1, 3, 4, 5
-
-        int[] array2 = new int[]{2, 3, 4, 5, 6, 10};
-        System.out.println(Arrays.toString(array2));
-        int k = array2[2];
-        array2[2] = array2[5];
-        array2[5] = k;
-        System.out.println("Result " + Arrays.toString(array2)); //2, 3, 10, 5, 6, 4
-
-        System.out.println("");
-
 //Task 4
         int[] arr = {1, 2, 3};
         int l = arr[1];
