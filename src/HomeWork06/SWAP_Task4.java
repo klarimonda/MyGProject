@@ -19,7 +19,7 @@ public class SWAP_Task4 {
         System.out.println("Trying swap: " + Arrays.toString(array) + " indices " + indexA + " and " + indexB);
 
         if (indexA < array.length && indexA >= 0) {
-            if (indexB < array.length) {
+            if (indexB < array.length && indexB >= 0) {
                 int k = array[indexA];
                 array[indexA] = array[indexB];
                 array[indexB] = k;
