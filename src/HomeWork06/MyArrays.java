@@ -17,22 +17,5 @@ public class MyArrays {
             // of the new array to the last one of the first array
         }
         System.out.println(Arrays.toString(reverse));
-
-//Task 4
-        int[] arr = {1, 2, 3};
-        int l = arr[1];
-        arr[1] = arr[2];
-        arr[2] = l;
-        System.out.println(Arrays.toString(arr)); //1, 3, 2
-        //index 3 is incorrect
-        //index -1 is incorrect
-
-        int[] arr2 = new int[]{2, 4, 6, 8, 10};
-        int m = arr2[2];
-        arr2[2] = arr2[3];
-        arr2[3] = m;
-        System.out.println(Arrays.toString(arr2)); //2, 4, 8, 6, 10
-        //index 5 is incorrect
-        //index -2 is incorrect
     }
 }
