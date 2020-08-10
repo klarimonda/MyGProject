@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task6_2 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter int:");
         int num = scanner.nextInt();
@@ -15,15 +16,15 @@ public class Task6_2 {
         }
 
         for (int i = 0; i < array.length; i++) {
-            if (i > 1) {
+            if (array[i] > 1) {
                 System.out.println("Yes");
                 break;
             }
-            if (i == array.length - 1 && array[i] <= 1) {
+            else if (i == array.length - 1 && array[i] <= 1) { //We check only last element for this case
                 System.out.println("No");
             }
         }
-            System.out.println(Arrays.toString(array)); //Thus we can see all the elements checked:
-            //0 - no mentioned, 1 - mentioned 1 time, 2 - repeated again etc.
+        System.out.println(Arrays.toString(array)); //Thus we can see all the elements checked:
+        //0 - no mentioned, 1 - mentioned 1 time, 2 - repeated again etc.
     }
 }
