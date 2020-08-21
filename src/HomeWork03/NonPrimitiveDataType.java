@@ -22,9 +22,10 @@ public class NonPrimitiveDataType {
 
         String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         System.out.println("The length of the txt string is " + txt.length());
+        //The length of the txt string is 26
 
         String txt1 = "tgif!";
-        System.out.println(txt1.toUpperCase() + " (Thank God it's Friday!)"); // TGIF!
+        System.out.println(txt1.toUpperCase() + " (Thank God it's Friday!)"); //TGIF!
 
         String txt2 = "Stop all the clocks, cut off the telephone,\n " +
         "Prevent the dog from barking with a juicy bone,\n " +
