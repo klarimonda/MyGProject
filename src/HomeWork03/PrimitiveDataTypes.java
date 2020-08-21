@@ -1,3 +1,5 @@
+package HomeWork03;
+
 public class PrimitiveDataTypes {
     public static void main(String[] args) {
 //Task 1
@@ -22,9 +24,11 @@ public class PrimitiveDataTypes {
     //-2147483648...2147483647 //4 bytes
 
 //Task 4
-    long g = 922372036854775807L;
+    long g = 9223372036854775807L;
     System.out.println(g);
-    //-922372036854775808...922372036854775807 //8 bytes //bank system
+    long g1 = Long.MAX_VALUE;
+    System.out.println(g1); //9223372036854775807
+    //-9,223,372,036,854,775,808 to +9,223,372,036,854,775,807 //8 bytes //bank system
 
 //Task 5
     float A = 1245.554F; //3,4e-38 < |x| < 3,4e38 //7-8 numbers //4 bytes

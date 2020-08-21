@@ -18,6 +18,7 @@ public class Task7 {
             pop += pop * diff / 1000; //As the condition x per 1000 is important
             //it must be in the loop body.
             //In contrast 'pop' is changeable every year! That's why it's our focus for body's formula
-        } System.out.println(pop);
+        }
+        System.out.println(pop);
     }
 }
